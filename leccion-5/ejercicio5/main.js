@@ -1,8 +1,9 @@
 'use strict';
 
-const page = document.querySelector('.page');
-function handleButtonClick(event) {
-  page.style = 'background-color:blue;';
+const key = document.querySelector('document');
+
+function changeBackground(ev) {
+  key = 'background-color: red;';
 }
 
-page.addEventListener('keydown', handleButtonClick);
+key.addEventListener('keyup', changeBackground);
