@@ -1,0 +1,14 @@
+.form {
+  background-color: rgb(56, 189, 189);
+  width: 400px;
+}
+.label {
+  font-size: 18px;
+  font-weight: bold;
+}
+.choice {
+  background-color: rgb(139, 196, 177);
+  border-radius: 5px;
+}
+
+}

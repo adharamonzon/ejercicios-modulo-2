@@ -27,9 +27,21 @@ const adalabers = [
     profession: 'diseñadora'
   }
 ];
+//EJERCICIO 7.1:
+function countAdalabers() {
+  /* debugger */ let numbAdalabers = adalabers.length;
+  console.log(`el número de adalabers es ${numbAdalabers}`);
+}
+countAdalabers();
 
-const countAdalabers = () => {
-  for (const adalaberNumber of adalabers) {
-    console.log(countAdalabers());
+//EJERCICIO 2:
+
+function averageAge() {
+  debugger;
+  let adalaberAge = 0;
+  for (i = 0; i <= adalabers.length; i++) {
+    adalaberAge += adalabers[i].age / adalabers.length;
   }
-};
+}
+averageAge();
+console.log(adalaberAge);
