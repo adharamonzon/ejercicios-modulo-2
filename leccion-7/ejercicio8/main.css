@@ -1,0 +1,19 @@
+.container {
+  border: solid 4px black;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.btn {
+  width: 100px;
+  height: 45px;
+  border-radius: 6px;
+}
+.alarm {
+  background-color: red;
+}
+.notalarm {
+  background-color: white;
+}

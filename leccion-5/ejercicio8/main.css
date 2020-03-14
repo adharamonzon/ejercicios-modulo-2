@@ -1,0 +1,15 @@
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(168, 136, 243);
+  border-radius: 10px;
+  color: beige;
+}
+
+.newbtn {
+  background-color: rgb(188, 199, 35);
+  color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}

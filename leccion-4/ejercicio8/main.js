@@ -6,5 +6,6 @@ function mySecretLetter() {
   secretLetter = 'x';
   return secretLetter;
 }
-console.log(secretLetter); // devuelve y, la constante se cambia dentro de la f(x) y no fuera?
+console.log(secretLetter); // devuelve y xq la f(x) aún no ha sido
+//ejecutada, y machaca el valor de la variable fuera de la f(x).
 console.log(mySecretLetter()); // devuelve "x"

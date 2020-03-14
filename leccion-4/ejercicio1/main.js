@@ -1,9 +1,15 @@
 'use strict';
-const a = 9;
+const a = 2;
 const b = 7;
-
-function operation(a, b) {
+//función normal:
+/* function operation(a, b) {
   return a * b;
-}
-
+} 
 console.log('número', operation(a, b));
+ */
+
+//arrow function
+const sum = (a, b) => {
+  return a * b;
+};
+console.log('número', sum(a, b));

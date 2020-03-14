@@ -27,21 +27,51 @@ const adalabers = [
     profession: 'diseñadora'
   }
 ];
-//EJERCICIO 7.1:
+//EJERCICIO 7.1: número de adalabers
 function countAdalabers() {
   /* debugger */ let numbAdalabers = adalabers.length;
   console.log(`el número de adalabers es ${numbAdalabers}`);
 }
 countAdalabers();
 
-//EJERCICIO 2:
+//EJERCICIO 2: media de la edad de las adalabers
 
 function averageAge() {
-  debugger;
   let adalaberAge = 0;
-  for (i = 0; i <= adalabers.length; i++) {
-    adalaberAge += adalabers[i].age / adalabers.length;
+  for (let i = 0; i < adalabers.length; i++) {
+    adalaberAge += adalabers[i].age;
   }
+
+  let mediaAge = adalaberAge / adalabers.length;
+  console.log(mediaAge);
 }
 averageAge();
-console.log(adalaberAge);
+
+//EJERCICIO 3: devuelve el nombre de la adalaber más joven
+
+/* function theYoungest() {
+  debugger;
+  let adalaberAge = 0;
+  for (let i = 0; i < adalabers.length; i++) {
+    if ((adalaberAge = adalaber[i].age)) {
+          adalaberAge > ????
+    }
+  }
+
+  return youngestAdalaber.name;
+}
+theYoungest(); */
+
+//EJERCICIO: devuelve en número de adalabers que son diseñadoras
+
+function countDesigners() {
+  debugger;
+  let designers = 0;
+
+  for (let i = 0; i < adalabers.length; i++) {
+    designers = adalabers[i].profession = 'diseñadora';
+  }
+  console.log(designers);
+}
+
+countDesigners();

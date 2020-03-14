@@ -1,10 +1,15 @@
 'use strict';
 
-function getEl(element) {
-  let result = document.querySelector(element);
-  return result;
-}
+const getEl = function(element) {
+  return document.querySelector(element);
+};
 
-getEl('.title');
+const btnEl = getEl('.btn');
+const titleEl = getEl('.title');
+const textEl = getEl('.text2');
+const textel1 = getEl('.text1');
 
-console.log(getEl('.title'));
+console.log(btnEl);
+console.log(titleEl);
+console.log(textEl);
+console.log(textel1);
