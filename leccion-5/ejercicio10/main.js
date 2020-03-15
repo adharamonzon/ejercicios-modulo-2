@@ -5,10 +5,15 @@ const eternalSunshineOfTheSM = 'Eternal sunshine of the spotless mind';
 const blueVelvet = 'Blue velvet';
 const split = 'Split';
 const btn = document.querySelector('.js-btn');
+const container = document.querySelector('.js-list');
 
 function showMovies() {
-  const container = document.querySelector('js-container');
-  container.innerHTML = inception + theButterFlyEffect + eternalSunshineOfTheSM + blueVelvet + split;
+  container.innerHTML = `<li>${inception}</li><li>${theButterFlyEffect}</li><li>${eternalSunshineOfTheSM}</li><li>${blueVelvet}</li><li>${split}</li>`;
 }
-showMovies();
+
+function handleList(ev) {
+  const movie = ev.target;
+  console.log(movie.innerHTML);
+}
 btn.addEventListener('click', showMovies);
+container.addEventListener('click', handleList);

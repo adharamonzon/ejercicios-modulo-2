@@ -2,11 +2,10 @@
 
 const btn = document.querySelector('.button');
 
-btn = {};
-
-function click() {
-  console.log('has hecho click');
+function handleBtn(ev) {
+  console.log(ev);
 }
 
-btn.addEventListener('click', click);
-n;
+handleBtn();
+
+btn.addEventListener('click', handleBtn);
