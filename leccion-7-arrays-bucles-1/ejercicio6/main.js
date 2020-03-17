@@ -42,10 +42,13 @@ btn.addEventListener('click', updateBook); */
 const btn = document.querySelector('.js-btn');
 
 function updateBook() {
-  /*   debugger; */
-  const books = [document.querySelector('.js-first-choice').value, document.querySelector('.js-second-choice').value];
+  const book1 = document.querySelector('.js-first-choice');
+  const book2 = document.querySelector('.js-second-choice');
+
   for (const book of books) {
-    console.log(`estas ${book[1]} y ${book[2]} a mi también me gustaron`);
+    debugger;
+
+    console.log(`este ${book} a mi también me gustaron`);
   }
 }
 
