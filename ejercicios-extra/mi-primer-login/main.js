@@ -9,7 +9,7 @@ const userInfo = { name: 'front23', password: 'bicicleta' };
 let attemps = 0;
 
 function increaseAttempts() {
-  /* debugger */ if (attemps <= 3) {
+  if (attemps <= 3) {
     attemps += 1;
   } else {
     alert('estás bloqueado!');
