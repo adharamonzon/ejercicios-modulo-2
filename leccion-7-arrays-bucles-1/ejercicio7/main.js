@@ -28,7 +28,7 @@ const adalabers = [
   }
 ];
 //EJERCICIO 7.1: número de adalabers
-function countAdalabers() {
+function countAdalabers(adalabers) {
   /* debugger */ let numbAdalabers = adalabers.length;
   console.log(`el número de adalabers es ${numbAdalabers}`);
 }

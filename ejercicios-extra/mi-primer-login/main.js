@@ -6,16 +6,13 @@ const inputName = document.querySelector('#input-name');
 const inputPassword = document.querySelector('#input-password');
 const error = document.querySelector('.js-message');
 const userInfo = { name: 'front23', password: 'bicicleta' };
-let attemps = [];
+let attemps = 0;
 
 function increaseAttempts() {
-  for (const number of attemps) {
-    console.log(number);
-  }
-  if (attemps <= 3) {
+  /* debugger */ if (attemps <= 3) {
     attemps += 1;
   } else {
-    console.log('estás bloqueado!');
+    alert('estás bloqueado!');
   }
 }
 
