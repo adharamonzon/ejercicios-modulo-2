@@ -1,6 +1,8 @@
 let avocados;
 const avocadoPrice = 1.5;
-const money = 20;
+const money = 0.5;
+
+//EJERCICIO CON IF/ELSE
 /* 
 if (money >= avocadoPrice) {
   avocados = money / avocadoPrice;
@@ -9,5 +11,6 @@ if (money >= avocadoPrice) {
 }
 console.log(avocados); */
 
-money >= avocadoPrice ? (avocados = money / avocadoPrice) : (avocados = 0);
+//EJERCICIO CON TERNARIOS
+const myCart = money >= avocadoPrice ? (avocados = money / avocadoPrice) : (avocados = 0);
 console.log(avocados);
