@@ -9,7 +9,7 @@ const users = [
 ];
 
 const names = Object.keys(users);
-console.log(names);
+console.log(names); //devuelve el nº del array....
 
 /* users.sort((a, b) => a.name - b.name);
 console.log(users.name); */

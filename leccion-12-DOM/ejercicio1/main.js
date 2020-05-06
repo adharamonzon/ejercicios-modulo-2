@@ -2,9 +2,20 @@
 
 const numbers = [1, 2, 3];
 
-const item1 = document.createElement('li');
+//con bucle
+const text = document.querySelector('.js-ul');
+for (let number of numbers) {
+  let newItem = document.createElement('li');
+  let newText = document.createTextNode(number);
+  newItem.appendChild(newText);
+  text.appendChild(newItem);
+}
+
+//versión rudimentaria
+
+/* const item1 = document.createElement('li');
 const item2 = document.createElement('li');
-const item3 = document.createElement('li');
+const item3 = document.createElement('li'); 
 
 const newtext1 = document.createTextNode(numbers[0]);
 const newtext2 = document.createTextNode(numbers[1]);
@@ -18,3 +29,4 @@ const text = document.querySelector('.js-ul');
 text.appendChild(item1);
 text.appendChild(item2);
 text.appendChild(item3);
+ */
