@@ -2,4 +2,4 @@
 
 const password = document.querySelector('p');
 
-password.innerHTML = "*****";
+password.innerHTML = '*****';

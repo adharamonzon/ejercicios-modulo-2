@@ -1,6 +1,7 @@
 'use strict';
 
 const title = document.querySelector('.title');
-const second = document.querySelector('.second');
+const firstUser = document.querySelector('.first');
+const secondUser = document.querySelector('.second');
 
-title.innerHTML = title.innerHTML + second.textContent;
+title.innerHTML = title.innerHTML + firstUser.textContent;

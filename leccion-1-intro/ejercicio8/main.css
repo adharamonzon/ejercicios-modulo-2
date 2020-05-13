@@ -1,7 +1,5 @@
-.btn {
-  border-radius: 40%;
-  border: solid orange 3px;
-  background-color: rgb(255, 205, 112);
+* {
+  margin: 20px;
 }
 .disable {
   opacity: 0.5;

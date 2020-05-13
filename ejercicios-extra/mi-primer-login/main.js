@@ -1,5 +1,7 @@
 'use strict';
 
+//hacer un login donde el usuario es 'front23' y la contraseña 'bicicleta' correcto = mensaje "estas dentro" a los tres fallos dar mensaje de error
+
 const btn = document.querySelector('.js-btn');
 
 const inputName = document.querySelector('#input-name');

@@ -1,5 +1,8 @@
 'use strict';
 
-const btnDisable = document.querySelector('.btn');
+const btnStart = document.querySelector('.btnStart');
+const btnContinue = document.querySelector('.btnContinue');
 
-btonDisable.classList.add('.disable');
+btnStart.classList.add('disable');
+
+btnContinue.classList.add('disable');
