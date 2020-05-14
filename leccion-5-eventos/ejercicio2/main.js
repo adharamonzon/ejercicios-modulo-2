@@ -3,7 +3,8 @@
 const button = document.querySelector('.js-btn');
 const newInput = document.querySelector('.js-name');
 
-const changeMessage = function() {
+const changeMessage = function (ev) {
+  ev.preventDefault;
   newInput.value = `Hola ${newInput.value}`;
   console.log(newInput.value);
 };

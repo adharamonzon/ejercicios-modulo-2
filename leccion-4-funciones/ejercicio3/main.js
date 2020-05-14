@@ -8,6 +8,9 @@
 console.log(finalPrice(price + priceIva)); */
 
 //FUNCIÓN ARROW:
-const iva = x => {
-  result`precio sin iva ${x}, IVA: x`;
+const iva = (x) => {
+  const result = `precio sin iva es ${x}€, el precio con IVA es : ${x + x * 0.21} `;
+  console.log(result);
 };
+
+iva(15);

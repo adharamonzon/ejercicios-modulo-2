@@ -1,12 +1,13 @@
 'use strict';
 
-const choose = document.querySelector('.teacher');
-const chooseTeacehr = choose.querySelectorAll('.favorite');
+const btns = document.querySelectorAll('.favorite');
+const teacher = document.querySelectorAll('.teacher');
 
-function handleClick(ev) {
-  /*   debugger; */
-  let favouriteTeacher = ev.currentTarget;
-  favouriteTeacher.classList.add('teacher--selected');
+function handleClick() {
+  for (const btn of btns) {
+    if .classList.add('teacher--selected');
+  }
 }
+
+btns.addEventListener('click', handleClick);
 handleClick();
-choose.addEventListener('click', handleClick);

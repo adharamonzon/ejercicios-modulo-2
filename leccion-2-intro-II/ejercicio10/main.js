@@ -1,7 +1,13 @@
 'strict use';
 
-const years = document.querySelector('.year');
-const hoursYear = 8760;
-const hoursLived = parseInt(years.innerHTML) * hoursYear;
+const years = document.querySelector('.years');
+const result = document.querySelector('.text-result');
 
-console.log(hoursLived);
+let yearDays = 365;
+const hoursDay = 24;
+const actualYears = years.textContent;
+const leapYear = actualYears / 4;
+
+const totalYearsDays = yearDays + leapYear;
+
+result.innerHTML = `en total he vivido ${totalYearsDays * hoursDay} horas`;

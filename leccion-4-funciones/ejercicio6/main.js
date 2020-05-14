@@ -1,6 +1,6 @@
 'use strict';
 
-const getEl = text => {
+const getEl = (text) => {
   const get = document.querySelector(text);
   if (get === null) {
     console.error(`no existe ningún elemento con clase, id o tag llamado ${get}`);
@@ -9,4 +9,5 @@ const getEl = text => {
   }
   return get;
 };
-getEl('.js-text');
+getEl('.js-texto');
+//el correcto .js-text

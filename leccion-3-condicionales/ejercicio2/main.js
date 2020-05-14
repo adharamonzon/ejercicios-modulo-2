@@ -14,4 +14,4 @@ if (name === 'eva') {
 let name = 'Eva';
 name = 'Lucía';
 
-const username = name === 'Eva' ? console.log('bienvenida ' + name) : console.log('lo siento no puedes pasar');
+name === 'Lucía' ? console.log('bienvenida ' + name) : console.log('lo siento no puedes pasar');

@@ -7,4 +7,4 @@ function evenOdd(n) {
     return false;
   }
 }
-console.log(evenOdd(1));
+console.log(evenOdd(4));

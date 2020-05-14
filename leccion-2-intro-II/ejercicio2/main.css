@@ -3,9 +3,11 @@
 }
 
 .main__title {
-  color: red;
+  color: black;
+  font-weight: 300;
 }
 
 .wave {
-  background-color: blue;
+  background-color: rgb(233, 121, 139);
+  font-weight: 900;
 }
