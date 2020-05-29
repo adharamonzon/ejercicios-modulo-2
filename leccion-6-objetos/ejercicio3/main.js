@@ -3,21 +3,23 @@
 const adalaberInfo = document.querySelector('.text1');
 
 const adalaber = {
-  name: 'María',
+  name: 'María ',
   age: 32,
   profession: 'fonambulista',
-  bio: function() {
+  bio: function () {
     return 'Mi nombre es ' + this.name + 'tengo ' + this.age + ' y soy ' + this.profession;
-    /* return `Mi nombre es , tengo ${this.age} y soy ${adalaber.profession}`; */
-  }
+  },
 };
-console.log(adalaber['bio']());
-/* 
-const adalaberInfo2 = document.querySelector('.text2');
 
+adalaberInfo.innerHTML = adalaber['bio']();
+
+const adalaberInfo2 = document.querySelector('.text2');
+let result;
 const adalaber2 = {};
-adalaber.name = ' Rocío';
-adalaber.age = 25;
-adalaber.profession = 'actriz';
-function showBio() {
-  return 'Mi nombre es ' + this.name + 'tengo' + this.age + 'y soy ' + this.profession; */
+adalaber2.name = ' Rocío ';
+adalaber2.age = 25;
+adalaber2.profession = 'actriz';
+adalaber2.bio = function () {
+  return (result = 'Mi nombre es ' + this.name + ' tengo ' + this.age + ' y soy ' + this.profession);
+};
+adalaberInfo2.innerHTML = adalaber2.bio(result);

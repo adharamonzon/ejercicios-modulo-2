@@ -12,5 +12,5 @@ for (let index = 0; index < buttons.length; index++) {
 }
 
 function addColor(ev) {
-  console.log(ev.currentTarget.classList.add('alarm'));
+  console.log(ev.currentTarget.classList.toggle('alarm'));
 }

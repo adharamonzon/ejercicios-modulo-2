@@ -11,7 +11,7 @@ user.job = job;
 
 console.log(user);
 
-user.name = 'Tino';
+user.firstname = 'Tino';
 user.age += 1;
 
 console.log(user);

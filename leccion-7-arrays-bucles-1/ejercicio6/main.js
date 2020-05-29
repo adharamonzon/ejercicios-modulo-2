@@ -42,13 +42,14 @@ btn.addEventListener('click', updateBook); */
 const btn = document.querySelector('.js-btn');
 
 function updateBook() {
-  const book1 = document.querySelector('.js-first-choice');
-  const book2 = document.querySelector('.js-second-choice');
+  const books = document.querySelectorAll('.js-imput-value');
 
   for (const book of books) {
-    debugger;
-
-    console.log(`este ${book} a mi también me gustaron`);
+    if (book.value !== '') {
+      console.log(`este ${book.value} a mi también me gusta`);
+    } else {
+      console.log('no has escrito ningún libro');
+    }
   }
 }
 

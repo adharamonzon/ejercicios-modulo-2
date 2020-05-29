@@ -4,24 +4,14 @@ const tasks = [
   { name: 'Poner una lavadora de blancos', completed: true },
   {
     name: 'Aprender cómo se realizan las peticiones al servidor en JavaScript',
-    completed: false
-  }
+    completed: false,
+  },
 ];
+const list = document.querySelector('.js-list');
 
-const ulList = document.createElement('ul');
-
-let taskItem = document.createElement('li');
-
-ulList.appendChild(taskItem);
-
-function writeTask() {
+const paintTasks = () => {
   debugger;
-  for (let i = 0; i < 3; i++) {
-    const task = tasks[i];
-    if (task.completed === true) {
-      taskItem.innerHTML = tasks['completed'];
-    }
+  for (const task of task) {
+    list.innerHTML = `<li>${task.name}</li>`;
   }
-}
-writeTask();
-/* console.log(tasks[i].completed); */
+};

@@ -5,7 +5,6 @@ const teacher = document.querySelectorAll('.teacher');
 
 function handleClick() {
   for (const btn of btns) {
-    if .classList.add('teacher--selected');
   }
 }
 

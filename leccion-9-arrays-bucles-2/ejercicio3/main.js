@@ -1,13 +1,28 @@
 'use strict';
 const lostNumbers = [4, 8, 15, 16, 23, 42];
+const evenNumbers = [];
+const mutipleThree = [];
 
-function bestLostNumber() {
-  let numberEven = lostNumbers;
-  for (let index = 0; index < lostNumbers.length; index++) {
-    if (numberEven % 2 === 0) {
-      numberEven.push(lostNumbers);
+function getEvenNumbers() {
+  for (const evenNumber of lostNumbers) {
+    if (evenNumber % 2 === 0) {
+      evenNumbers.push(evenNumber);
+    }
+  }
+}
+function multipleOfThree() {
+  for (const number of lostNumbers) {
+    if (number % 3 === 0) {
+      mutipleThree.push(number);
     }
   }
 }
 
-console.log(bestLostNumber());
+getEvenNumbers();
+multipleOfThree();
+
+let resultArray = evenNumbers.concat(mutipleThree);
+
+console.log(evenNumbers);
+console.log(mutipleThree);
+console.log(resultArray);

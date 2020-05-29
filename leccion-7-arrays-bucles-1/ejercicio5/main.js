@@ -23,5 +23,3 @@ function average(numbers) {
   return media / numbers.length;
 }
 console.log(average(numbers)); */
-
-//ejercicio A y B:
