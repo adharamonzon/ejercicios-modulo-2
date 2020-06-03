@@ -78,3 +78,26 @@ Métodos de array:
 **push** agrega uno o más elementos al final de un array. devuelve otro array.
 **reverse** invierte el orden de un array. Modifica directamente el array sobre el que se ha utilizado y devuelve el array atualizado.
 **concat** se obtine a partir de dos o más arrays una combinación de ellos. No modifica ninguno de los arrays utilizados, devuelve un array nuevo.
+**slice** devuelve el array sin modificar el originarl. Recibe 2 parámetros (posición-inicial, posición-final).
+**splice** cambia el contenido de un array eliminando elementos ya existentens y/o agregando nuevos.
+**indexOf** busca el elemento dentro de un array y devuelve su ponsición / índice. Si no encuentra la posición devuelve -1.
+
+### Tema 10. Peticiones al servidor
+
+con AJAX: puentre entre el navegador y el servidor.
+**Peticiones AJAX** nos permiten acceder y manipular datos en el servidor. (AJAX = Asynchronous JavaScript And XML). A través de una **API** (url)
+
+## Fetch
+
+Manera estandar de acceder a los datos del servidor.
+
+## Promesas
+
+Es necesario gestionar la asincronía, y que realizar con la información que nos devuelve la api.
+
+## Formato JSON
+
+(JavaScript Object Notation)
+Muy habitual para el intercambio de información en la web.
+
+## Peticiones encadenadas

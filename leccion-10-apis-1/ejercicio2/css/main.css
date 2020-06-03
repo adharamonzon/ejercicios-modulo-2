@@ -1,0 +1,28 @@
+body {
+  background-color: rgba(124, 82, 3, 0.5);
+}
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  height: 25px;
+  color: brown;
+  border-radius: 15px;
+}
+.btn:hover {
+  background-color: brown;
+  color: white;
+  transition: ease 2s;
+}
+.image {
+  width: 300px;
+  height: auto;
+  border: solid 7px brown;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
